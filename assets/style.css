@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400&display=swap");
+body {
+  direction: rtl;
+  font-family: "Tajawal", sans-serif;
+  user-select: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.section {
+  padding: 40px 0;
+  overflow: hidden;
+}
+:root {
+  --Color1: #53bf9d;
+  --Color2: #f94c66;
+  --Color3: #bd4291;
+  --Color4: #ffc54d;
+}
+h1 {
+  font-size: 95px;
+  line-height: 159px;
+}
+/*About*/
+.contactAbout {
+  position: relative;
+  top: 110px;
+}
+.imageAbout {
+  position: relative;
+  right: 100px;
+}
+/* producr cart*/
+.card-text {
+  font-size: 20px;
+}
+.btn-primary {
+  background-color: var(--Color1);
+  border: var(--Color1);
+}
+.btn:hover {
+  background-color: var(--Color4);
+}
+.line {
+  width: 130px;
+  height: 3px !important;
+  color: var(--Color1);
+}
+.product {
+  position: relative;
+  right: 30px;
+}
+.pageAbout {
+  position: relative;
+  right: 30px;
+}
+/* Map */
+.map-container-5 {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-container-5 iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.copywrite {
+  position: relative;
+  top: 70px;
+}
