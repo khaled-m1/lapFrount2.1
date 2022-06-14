@@ -29,7 +29,7 @@ h1 {
 }
 .imageAbout {
   position: relative;
-  right: 100px;
+  /* right: 100px; */
 }
 /* producr cart*/
 .card-text {
@@ -47,14 +47,11 @@ h1 {
   height: 3px !important;
   color: var(--Color1);
 }
-.product {
+
+/* .pageAbout {
   position: relative;
   right: 30px;
-}
-.pageAbout {
-  position: relative;
-  right: 30px;
-}
+} */
 /* Map */
 .map-container-5 {
   overflow: hidden;
@@ -72,4 +69,10 @@ h1 {
 .copywrite {
   position: relative;
   top: 70px;
+}
+@media screen and (max-width: 480px) {
+  .imageAbout {
+    width: 70px !important;
+    height: 70px !important;
+  }
 }
